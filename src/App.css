@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+h1{
+text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MuiListItem-root.MuiListItem-gutters.MuiListItem-padding.MuiListItem-secondaryAction{
+  align-items: flex-start;
+  background-color: rgba(54, 162, 235, 0.2) ;
+  border: 1px solid rgba(54, 162, 235, 1);
+  border-radius: 10px;
 }
+.task-completed{
+  background-color: rgb(245 245 245) !important;
+  border: 1px solid rgb(195 202 202) !important;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button svg{
+  color: rgba(255, 99, 132, 1);
+}
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary{
+  font-weight: 600 !important;
+}
+.total-task{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.add-task{
+  display: flex !important;
+  justify-content: center !important;
+  margin: auto !important;
+  margin-top: 25px !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li{
+  margin-bottom: 5px;
+}
+li p{
+  margin: 2px 0;
 }
